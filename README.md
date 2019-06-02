@@ -1,5 +1,16 @@
 # Instructions
-ADC  
+ADC (Add with Carry)  
+  
+mov eax, 5  
+clc  
+adc eax, 2  
+; eax = 5 + 0 + 2 = 7  
+   
+mov ebx, 5  
+stc  
+adc ebx, 2  
+; ebx = 5 + 1 + 2 = 8  
+  
 ADD  
 AND  
 CALL  
